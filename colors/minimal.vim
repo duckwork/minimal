@@ -1,10 +1,10 @@
-" -----------------------------------------------------------------------------
+" ----------------------------------------------------------------------------
 " File: minimal.vim
 " Description: A minimal colorscheme for Vim
 " Author: duckwork <casedizz@gmail.com>
 " Source: https://github.com/duckwork/minimal
 " Last Modified: 29 November 2015
-" -----------------------------------------------------------------------------
+" ----------------------------------------------------------------------------
 
 if version > 580
   hi clear
@@ -154,6 +154,6 @@ call s:HL('VertSplit', s:hh, s:hh)
 call s:HL('Visual', s:fg1, s:bg1, s:inverse)
 hi! link Directory BoldItalic
 call s:HL('MatchParen', s:fg0, s:none, s:bold . s:inverse)
-call s:HL('Search', s:c.green, s:fg0, s:inverse)
+call s:HL('Search', s:hh, s:bg0, s:inverse)
 hi! link IncSearch Search
 hi! link WildMenu Search
